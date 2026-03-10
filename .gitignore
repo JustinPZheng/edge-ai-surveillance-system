@@ -1,0 +1,22 @@
+# virtual environment
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# mac files
+.DS_Store
+
+# database
+*.db
+
+# runtime data
+data/videos/*
+data/snapshots/*
+data/logs/*
+
+# keep folder structure
+!data/videos/.gitkeep
+!data/snapshots/.gitkeep
+!data/logs/.gitkeep
